@@ -1,0 +1,202 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+ margin:0;
+ padding:0;
+ border:0;
+ outline:0;
+ font-size:100%;
+ vertical-align:baseline;
+ background:transparent;
+}
+/* !! ~ RESET CSS ABOVE ~ !! ~ RESET CSS ABOVE ~ !! ~ RESET CSS ABOVE ~ !! */
+/* !! ~ RESET CSS ABOVE ~ !! ~ RESET CSS ABOVE ~ !! ~ RESET CSS ABOVE ~ !! */
+body {
+    background-color: #F2836B;
+}
+
+
+/* GENERAL DIV PROPERTIES */
+div {
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+/* !! ~ TITLE SECTION ~ !! ~ TITLE SECTION ~ !! ~ TITLE SECTION ~ !! */
+/* !! ~ TITLE SECTION ~ !! ~ TITLE SECTION ~ !! ~ TITLE SECTION ~ !! */
+div.title {
+    height: 150px;
+    width: 550px;
+}
+
+div.title marquee.text {
+    font-size: 4em;
+    font-weight: bold;
+}
+
+/* !! ~ SCORE + NEW GAME + SAVE GAME ++ SCORE + NEW GAME + SAVE GAME ~ !! */
+/* !! ~ SCORE + NEW GAME + SAVE GAME ++ SCORE + NEW GAME + SAVE GAME ~ !! */
+div.score_newGame_save {
+    height: 100px;
+    width: 550px;
+}
+
+div.score_newGame_save div.newGame_saveGame {
+    margin: 0 auto;
+    width: 500px;
+}
+
+div.score_newGame_save div.newGame_saveGame button {
+    width: 200px;
+    height: 50px;
+    border: solid;
+    border-radius: 10px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.4em;
+}
+
+div.score_newGame_save div.newGame_saveGame button:not(:first-child) {
+    float: right;
+}
+
+
+/* GAME ~ GRID !! GAME ~ GRID !! GAME ~ GRID !! GAME ~ GRID !! GAME ~ GRID */
+/* GAME ~ GRID !! GAME ~ GRID !! GAME ~ GRID !! GAME ~ GRID !! GAME ~ GRID */
+/* GAME ~ GRID !! GAME ~ GRID !! GAME ~ GRID !! GAME ~ GRID !! GAME ~ GRID */
+/* GAME ~ GRID !! GAME ~ GRID !! GAME ~ GRID !! GAME ~ GRID !! GAME ~ GRID */
+/* GAME ~ GRID !! GAME ~ GRID !! GAME ~ GRID !! GAME ~ GRID !! GAME ~ GRID */
+div#game_grid {
+    border: solid;
+    height: 465px;
+    width: 465px;
+    padding: 20px;
+    background-color: #F2E1AC;
+}
+
+div.grid_rows {
+    float: left;
+    clear: left;
+    width: 495px;
+}
+
+div.grid_rows:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+div.grid_cells {
+    width: 100px;
+    height: 100px;
+    float: left;
+    background-color: #63A69F;
+}
+
+div.grid_cells:not(:last-child) {
+    margin-right: 20px;
+}
+
+
+/* INSTRUCTIONS ~ !! ~ INSTRUCTIONS ~ !! ~ INSTRUCTIONS ~ !! ~ INSTRUCTIONS */
+/* INSTRUCTIONS ~ !! ~ INSTRUCTIONS ~ !! ~ INSTRUCTIONS ~ !! ~ INSTRUCTIONS */
+div.how_to_play {
+    margin-top: 40px;
+    width: 550px;
+}
+
+div.how_to_play p {
+    font-size: 1.4em;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+}
+
+div.how_to_play p span {
+    color: #CD2C24;
+}
+
+
+/* SOCIAL MEDIA ~ !! ~ SOCIAL MEDIA ~ !! ~ SOCIAL MEDIA ~ !! ~ SOCIAL MEDIA */
+/* SOCIAL MEDIA ~ !! ~ SOCIAL MEDIA ~ !! ~ SOCIAL MEDIA ~ !! ~ SOCIAL MEDIA */
+div.social_media_container {
+    margin-top: 40px;
+    width: 550px;
+}
+
+div.social_media_container div.social_media {
+    width: 500px;
+    margin: 0 auto;
+}
+
+div.social_media_container div.social_media a {
+    margin: 30px;
+}
+
+
+/* JAVASCRIPT DIVS BASED ON VALUE -- JAVASCRIPT DIVS BASED ON VALUE -- JAVASCRIPT */
+/* JAVASCRIPT DIVS BASED ON VALUE -- JAVASCRIPT DIVS BASED ON VALUE -- JAVASCRIPT */
+
+div[class*='sq'] {
+    height: 100px;
+    width: 100px;
+    color: #FFFFFF;
+    font-size: 3em;
+    position: absolute;
+    text-align: center;
+}
+
+div h2 {
+    position: relative;
+    margin: 0 auto;
+}
+
+.sq2 {
+    background-color: #3967CC;
+}
+
+.sq4 {
+    background-color: #61E5FF;
+}
+
+.sq8 {
+    background-color: #778299;
+}
+
+.sq16 {
+    background-color: #FFBEA1;
+}
+
+.sq32 {
+    background-color: #CC5239;
+}
+
+.sq64 {
+    background-color: #FFAA61;
+}
+
+.sq128 {
+    background-color: #B26420;
+}
+
+.sq256 {
+    background-color: #FF7AB2;
+}
+
+.sq512 {
+    background-color: ;
+}
+
+.sq1024 {
+    background-color: ;
+}
+
+.sq2048 {
+    background-color: ;
+}

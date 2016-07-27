@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Twenty Fourty Eight</title>
+    <link rel="stylesheet" type="text/css" href="twenty_fourty_eight.css">
+    <meta charset="UTF-8">
+    <meta name="author" content="Alexandra Castillo">
+    <meta name="description" content="Recode the game - 2048">
+    <meta name="description" content="Move up, down, left, or right to merge cells">
+    <meta name="keywords" content="Recode,2048,twenty fourty eight,HTML,CSS,JS">
+</head>
+
+<body>
+    <div id="general_container">
+        <div class="title">
+            <marquee direction="down" width="550" height="150" behavior="alternate">
+                <marquee class="text" behavior="bounce">2048</marquee>
+            </marquee>
+        </div>
+        <div class="score_newGame_save">
+            <div class="score"></div>
+            <div class="newGame_saveGame">
+                <button type="submit" id="newGame">New Game</button>
+                <button type="submit" id="saveGame">Save Game</button>
+                <!-- <a class="newGame" href="#">New Game</a>
+                <br/>
+                <a class="saveGame" href="#">Save Game</a> -->
+            </div>
+        </div>
+        <div class="game_area">
+            <div id="game_grid">
+                <div class="grid_rows">
+                    <div class="grid_cells"></div>
+                    <div class="grid_cells"></div>
+                    <div class="grid_cells"></div>
+                    <div class="grid_cells"></div>
+                </div>
+                <div class="grid_rows">
+                    <div class="grid_cells"></div>
+                    <div class="grid_cells"></div>
+                    <div class="grid_cells"></div>
+                    <div class="grid_cells"></div>
+                </div>
+                <div class="grid_rows">
+                    <div class="grid_cells"></div>
+                    <div class="grid_cells"></div>
+                    <div class="grid_cells"></div>
+                    <div class="grid_cells"></div>
+                </div>
+                <div class="grid_rows">
+                    <div class="grid_cells"></div>
+                    <div class="grid_cells"></div>
+                    <div class="grid_cells"></div>
+                    <div class="grid_cells"></div>
+                </div>
+            </div>
+        </div>
+        <div class="how_to_play">
+            <p>
+                <b>*~  <span>HOW TO PLAY</span>  ~*</b><br/><br/> Use your <span><b>arrow keys</b></span> to move the tiles. When two <span><b>tiles with</b></span> the <span><b>same number</b></span> touch, they <span><b>merge into one!</b></span>
+            </p>
+        </div>
+        <div class="social_media_container">
+            <div class="social_media">
+                <a href="facebook.com/share">
+                    <img src="icons/facebook29.png" height="64" width="64" alt="Share your score !"></a>
+                <a href="twitter.com/share">
+                    <img src="icons/twitter21.png" height="64" width="64" alt="Tweet your score !"></a>
+                <a href="reddit.com/upvote">
+                    <img src="icons/reddit4.png" height="64" width="64" alt="Upvote this shit !"></a>
+                <a href="instagram.com/share">
+                    <img src="icons/photobucket.png" height="64" width="64" alt="Instagram your score !"></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script/input_manager.js"></script>
+    <script src="script/grid.js"></script>
+    <script src="script/tile.js"></script>
+    <script src="script/game_manager.js"></script>
+    <script src="script/launch.js"></script>
+</body>
+</html>
